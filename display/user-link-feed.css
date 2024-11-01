@@ -1,0 +1,224 @@
+/**
+ * This file is part of User Link Feed. Please see the user-link-feed.php file for copyright
+ *
+ * @author Sulaeman
+ * @version 1.2.0
+ * @package user-link-feed
+ */
+
+/* Styling for error messages */
+.ulf_errors {
+    color: red;
+}
+
+/* Styling for the success message div */
+.ulf_success {
+	color: #28b60c;
+}
+
+/* Styling for the list */
+.ulf_head_box {
+	background-color:#FFFFFF;
+	border:1px solid #D6CFB3;
+	margin-bottom:15px;
+	padding:15px 19px;
+}
+.ulf_head_box h2 {
+	-x-system-font:none;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:40px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:900;
+	line-height:normal;
+	padding-bottom:20px;
+}
+.ulf_head_box p {
+	padding:0 0 15px;
+}
+.ulf_list_widget_box ul,
+.ulf_list_box ul {
+	border-top:0 none;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-bottom:20px;
+	padding:0;
+}
+.ulf_list_box td p {
+	padding:0px 5px;
+	margin:0px;
+	vertical-align:top;
+}
+.ulf_list_box .ulf_author_comment {
+	margin-left:10px;
+	font-size:85%;
+}
+.ulf_list_widget_box ul li.alt,
+.ulf_list_box ul li.alt {
+	background-color:#FFFFFF;
+}
+.ulf_list_widget_box ul li,
+.ulf_list_box ul li {
+	padding:5px 19px;
+	background-color:#F3F9FC;
+	border-bottom:1px solid #D6CFB3;
+}
+.ulf_list_widget_box ul li {
+	padding:5px;
+}
+.ulf_list_widget_box ul li p,
+.ulf_list_box ul li p {
+	-x-system-font:none;
+	font-family:"Lucida Sans",Arial,Helvetica,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:19px;
+}
+.ulf_list_widget_box .alignright,
+.ulf_list_box .alignright {
+	float:right;
+	margin:5px 0 0 10px;
+}
+.ulf_list_widget_box small,
+.ulf_list_box small {
+	font-size:10px;
+	color:#737373;
+}
+.ulf_form_box {
+	background-color:#FFFFFF;
+	border:1px solid #D6CFB3;
+	text-align:left;
+}
+.ulf_form_box .comment_title {
+	margin-bottom:9px;
+	padding:3px 19px;
+	border-bottom:1px solid #D6CFB3;
+}
+.ulf_form_box .commentform {
+	border:0 none;
+	padding:15px 14px;
+	background-color:#FFFFFF;
+}
+.ulf_form_box .left-form {
+	float:left;
+	width:200px;
+}
+.ulf_form_box .right-form {
+	float:right;
+	width:314px;
+}
+.ulf_form_box p {
+	padding:0 0 15px;
+}
+.ulf_form_box label {
+	font-weight:900;
+}
+.ulf_form_box input {
+	font-size:11px;
+	width:98%;
+	color:#434343;
+}
+.ulf_form_box textarea {
+	height:50px;
+	width:98%;
+	color:#434343;
+}
+.ulf_form_box input, .ulf_form_box textarea {
+	border:1px solid #BEBCAA;
+	padding:6px;
+}
+.ulf_form_box #submit-comment {
+	-x-system-font:none;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:900;
+	line-height:normal;
+	padding:6px 12px;
+	width:auto;
+}
+.ulf_form_box .ulf_url_container_form {
+	margin:3px 0 0 0;
+}
+.ulf_form_box .ulf_url_container_form input[type=text] {
+	width:360px;
+}
+
+/* pagination style */
+.ulf_view_all_pagination,
+.ulf_pagination {
+	font-size:11px;
+	padding: 3px;
+	margin: 3px 3px 20px 3px;
+	text-align:center;
+}
+.ulf_view_all_pagination a,
+.ulf_pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #358DDC;
+	text-decoration: none; /* no underline */
+	color: #358DDC;
+}
+.ulf_pagination a:hover,
+.ulf_pagination a:active {
+	border: 1px solid #999;
+	color: #666;
+}
+.ulf_pagination .current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #358DDC;
+	font-weight: bold;
+	background-color: #358DDC;
+	color: #FFF;
+}
+.ulf_pagination .disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #EEE;
+	color: #DDD;
+}
+.ulf_feed_icon {
+	float:right;
+}
+
+.ulf_url_attach_container td {
+	padding:5px;
+	text-align:left;
+	font-size:85%;
+}
+.ulf_url_attach_container p {
+	padding:0px;
+	margin:0px;
+}
+.ulf_url_attach_container hr {
+	border:0px;
+	border-bottom:1px solid #cecece;
+}
+.ulf_url_attach_container .ulf_attached_url_title {
+	font-weight:strong;
+	float:left;
+}
+.ulf_url_attach_container .ulf_attached_url {
+	font-size:75%;
+}
+.ulf_url_attach_container .ulf_attached_description {
+}
+.ulf_attached_images img {
+	width:100px;
+	height:100px;
+}
+.ulf_change_link {
+	float:right;
+}
